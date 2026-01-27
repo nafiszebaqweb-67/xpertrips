@@ -44,12 +44,13 @@ h6 {
 .nav-menu a {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
-    color: #333;
+    color: #234494;
+    font-weight: 500;
     font-size: 16px;
 }
 
 .nav-menu a:hover {
-    color: #5f9e95;
+    color: #F5C645;
 }
 
 
@@ -57,12 +58,13 @@ h6 {
     display: flex;
     align-items: center;
     gap: 10px;
-    background: #5f9e95;
+    background: #234494;
     color: #fff;
     padding: 12px 18px;
     text-decoration: none;
     font-size: 15px;
     font-weight: 600;
+    transition-duration: 0.5s;
 }
 
 .contact-btn i {
@@ -70,7 +72,7 @@ h6 {
 }
 
 .contact-btn:hover {
-    background: #4a877f;
+    background: #F5C645;
 }
 
 
@@ -93,6 +95,7 @@ h6 {
         gap: 0;
         display: none;
         border-top: 1px solid #eee;
+        z-index: 10;
     }
 
     .nav-menu a {
@@ -166,13 +169,14 @@ h6 {
     display: inline-flex;
     align-items: center;
     gap: 10px;
-    background: #5f9e95;
+    background: #F5C645;
     color: #fff;
     padding: 12px 28px;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     font-weight: 600;
     text-decoration: none;
+    transition-duration: 0.5s;
 }
 
 .hero-btn i {
@@ -180,7 +184,7 @@ h6 {
 }
 
 .hero-btn:hover {
-    background: #4a877f;
+    background: #234494;
 }
 
 @media (max-width: 768px) {
@@ -232,13 +236,14 @@ h6 {
 
 .top-about h2 {
     font-size: 38px;
+    color: #234494;
 }
 
 .about-subtitle {
     display: block;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
-    color: #777;
+    color: #214697;
     margin-bottom: 10px;
 }
 
@@ -256,6 +261,7 @@ h6 {
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 15px;
+    color: #234494;
 }
 
 
@@ -299,7 +305,7 @@ h6 {
     font-size: 38px;
     font-weight: 600;
     margin-bottom: 30px;
-    color: #222;
+    color: #234494;
 }
 
 
@@ -329,7 +335,7 @@ h6 {
 .why-icon {
     width: 46px;
     height: 46px;
-    background: #5f9e95;
+    background: #234494;
     color: #fff;
     border-radius: 50%;
     display: flex;
@@ -340,6 +346,17 @@ h6 {
 
 .why-icon i {
     font-size: 16px;
+}
+@media (max-width: 768px) {
+    .why-grid {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .why-title {
+        font-size: 26px;
+        margin-bottom: 50px;
+    }
 }
 
 /* Services Section */
@@ -358,7 +375,7 @@ h6 {
     display: block;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
-    color: #777;
+    color: #214697;
     margin-bottom: 45px;
 }
 
@@ -367,6 +384,7 @@ h6 {
     font-size: 38px;
     font-weight: 600;
     margin-bottom: 5px;
+    color: #234494;
 }
 
 
@@ -394,6 +412,7 @@ h6 {
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 15px;
+    color: #234494;
 }
 
 
@@ -408,18 +427,18 @@ h6 {
 
 .service-btn {
     display: inline-block;
-    background: #5f9e95;
+    background: #234494;
     color: #fff;
     padding: 10px 18px;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 600;
     text-decoration: none;
-    border-radius: 3px;
+    transition-duration: 0.5s;
 }
 
 .service-btn:hover {
-    background: #4a877f;
+    background: #F5C645;
 }
 
 @media (max-width: 900px) {
@@ -446,12 +465,13 @@ h6 {
     font-size: 38px;
     font-weight: 600;
     margin-bottom: 5px;
+    color: #234494;
 }
 
 .transport-subtitle {
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
-    color: #666;
+    color: #214697;
     margin-bottom: 45px;
 }
 
@@ -468,7 +488,7 @@ h6 {
 }
 
 .card-header {
-    background: #5f9e95;
+    background: #234494;
     color: #fff;
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
@@ -481,6 +501,7 @@ h6 {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
     margin-bottom: 10px;
+    color: #234494;
 }
 
 .transport-card h4 {
@@ -488,6 +509,7 @@ h6 {
     font-size: 14px;
     font-weight: 600;
     margin-bottom: 15px;
+    color: #214697;
 }
 
 .transport-card ul {
@@ -511,17 +533,18 @@ h6 {
 
 .card-btn {
     display: inline-block;
-    background: #5f9e95;
+    background: #234494;
     color: #fff;
     padding: 10px 18px;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 600;
     text-decoration: none;
+    transition-duration: 0.5s;
 }
 
 .card-btn:hover {
-    background: #4a877f;
+    background: #F5C645;
 }
 
 @media (max-width: 900px) {
@@ -545,13 +568,14 @@ h6 {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 38px;
     margin-bottom: 8px;
+    color: #234494;
 }
 
 .products-subtitle {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
-    color: #666;
+    color: #214697;
     margin-bottom: 45px;
 }
 
@@ -577,6 +601,7 @@ h6 {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 24px;
     margin-bottom: 15px;
+    color: #234494;
 }
 
 .product-content p {
@@ -589,14 +614,14 @@ h6 {
 
 .product-btn {
     display: inline-block;
-    background: #5f9e95;
+    background: #F5C645;
     color: #fff;
     padding: 10px 18px;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 600;
     text-decoration: none;
-    border-radius: 3px;
+    transition-duration: 0.5s;
 }
 
 .product-content ul {
@@ -604,7 +629,7 @@ h6 {
 }
 
 .product-btn:hover {
-    background: #4a877f;
+    background: #234494;
 }
 
 .btn-prrr {
@@ -645,13 +670,13 @@ h6 {
     font-size: 38px;
     font-weight: 600;
     margin-bottom: 15px;
-    color: #222;
+    color: #234494;
 }
 
 .video-subtitle {
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
-    color: #666;
+    color: #214697;
     max-width: 800px;
     margin: 0 auto 45px;
     line-height: 1.7;
@@ -690,13 +715,13 @@ h6 {
     font-size: 38px;
     font-weight: 600;
     margin-bottom: 10px;
-    color: #222;
+    color: #234494;
 }
 
 .gallery-subtitle {
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
-    color: #666;
+    color: #214697;
     margin-bottom: 45px;
 }
 
@@ -723,6 +748,10 @@ h6 {
         grid-template-columns: 1fr;
         gap: 40px;
     }
+
+    .gallery-item img {
+        height: 100%;
+    }
 }
 
 /* Testimonials Section */
@@ -736,10 +765,11 @@ h6 {
 .ts-title {
     font-size: 38px;
     margin-bottom: 10px;
+    color: #234494;
 }
 
 .ts-subtitle {
-    color: #666;
+    color: #214697;
     margin-bottom: 50px;
 }
 
@@ -789,7 +819,7 @@ h6 {
     font-size: 38px;
     font-weight: 500;
     margin-bottom: 40px;
-    color: #111;
+    color: #234494;
 }
 
 .client-logos-grid {
@@ -828,13 +858,16 @@ h6 {
 @media (max-width: 600px) {
     .client-logos-grid {
         grid-template-columns: repeat(2, 1fr);
-        gap: 35px;
+        gap: 10px;
     }
 
     .client-logos-title {
         font-size: 22px;
         margin-bottom: 40px;
     }
+        .client-logo-box {
+            padding: 18px 12px;
+        }
 }
 
 /* Partner Highlight Section */
@@ -895,11 +928,12 @@ h6 {
     text-align: center;
     font-size: 38px;
     margin-bottom: 6px;
+    color: #234494;
 }
 
 .xp-contact-subtitle {
     text-align: center;
-    color: #555;
+    color: #214697;
     margin-bottom: 60px;
 }
 
@@ -923,13 +957,13 @@ h6 {
     display: flex;
     align-items: center;
     margin-bottom: 25px;
-    color: #333;
+    color: #214697;
 }
 
 .xp-icon {
     width: 44px;
     height: 44px;
-    background: #6aa79a;
+    background: #234494;
     color: #fff;
     border-radius: 50%;
     display: flex;
@@ -949,6 +983,7 @@ h6 {
     font-size: 14px;
     display: block;
     margin-bottom: 6px;
+    color: #214697;
 }
 
 .xp-contact-form input {
@@ -970,15 +1005,16 @@ h6 {
 .xp-contact-form button {
     width: 100%;
     padding: 14px;
-    background: #6aa79a;
+    background: #234494;
     color: #fff;
     border: none;
     font-size: 16px;
     cursor: pointer;
+    transition-duration: 0.5s;
 }
 
 .xp-contact-form button:hover {
-    opacity: 0.9;
+    background: #F5C645;
 }
 
 /* MOBILE */
@@ -1001,7 +1037,7 @@ h6 {
 
 .xp-newsletter-text p {
     font-size: 16px;
-    color: #444;
+    color: #214697;
 }
 
 /* Form box */
@@ -1014,6 +1050,7 @@ h6 {
     font-size: 14px;
     display: block;
     margin-bottom: 6px;
+    color: #214697;
 }
 
 .xp-newsletter-form label span {
@@ -1037,10 +1074,14 @@ h6 {
     width: 100%;
     height: 45px;
     border: none;
-    background: #5f9e95;
+    background: #234494;
     color: #fff;
     font-size: 16px;
     cursor: pointer;
+}
+
+.xp-newsletter-form button:hover {
+    background: #F5C645;
 }
 
 /* Mobile */
@@ -1073,7 +1114,7 @@ footer.xp-footer {
 .xp-social a {
     width: 44px;
     height: 44px;
-    background: #5f9c92;
+    background: #234494;
     color: #fff;
     border-radius: 50%;
     display: flex;
@@ -1081,8 +1122,12 @@ footer.xp-footer {
     justify-content: center;
     font-size: 18px;
     text-decoration: none;
+    transition-duration: 0.5s;
 }
 
+.xp-social a:hover {
+    background: #F5C645;
+}
 
 .xp-footer-links {
     display: flex;
@@ -1092,14 +1137,15 @@ footer.xp-footer {
 }
 
 .xp-footer-links a {
-    color: #111;
+    color: #214697;
     text-decoration: none;
     font-size: 15px;
+    font-weight: 500;
 }
 
 .xp-divider {
     border: none;
-    border-top: 1px solid #222;
+    border-top: 1px solid #234494;
     margin: 40px auto;
 }
 
@@ -1121,10 +1167,16 @@ footer.xp-footer {
 
 .xp-location {
     font-size: 14px;
-    color: #111;
+    color: #214697;
 }
 
 .xp-footer-right {
     font-size: 14px;
-    color: #111;
+    color: #214697;
+}
+
+@media (max-width: 768px) {
+.xp-footer-links {
+        gap: 100px;
+    }
 }
