@@ -5,11 +5,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Josefin+Sans:wght@500;600;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <!-- Header Load -->
-    <div id="header"></div>
+    <header class="site-header">
+        <div class="header-container">
+
+            <!-- Logo -->
+            <div class="logo">
+                <img src="images/logo.webp" alt="XperTrips Logo">
+            </div>
+
+            <!-- Navigation -->
+            <nav class="nav-menu" id="navMenu">
+                <a href="https://traavelbug.com/" target="_blank" rel="noopener noreferrer">About Us</a>
+                <a href="https://traavelbug.com/" target="_blank" rel="noopener noreferrer">Services</a>
+                <a href="https://traavelbug.com/" target="_blank" rel="noopener noreferrer">Products</a>
+            </nav>
+
+            <!-- Contact Button -->
+            <div class="header-cta">
+                <a href="https://traavelbug.com/" class="contact-btn">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    Contact us
+                </a>
+            </div>
+
+            <!-- Hamburger -->
+            <div class="hamburger" id="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+        </div>
+    </header>
 
     <!-- Banner Section -->
     <section class="hero-section">
@@ -140,7 +176,8 @@
                         vacation.
                     </p>
 
-                    <a href="https://traavelbug.com/" target="_blank" rel="noopener noreferrer" class="service-btn">Get a quote now!</a>
+                    <a href="https://traavelbug.com/" target="_blank" rel="noopener noreferrer" class="service-btn">Get
+                        a quote now!</a>
                 </div>
 
                 <!-- Card 2 -->
@@ -158,7 +195,8 @@
                         experience during your visit to this beautiful tourist region.
                     </p>
 
-                    <a href="https://traavelbug.com/" target="_blank" rel="noopener noreferrer" class="service-btn">Personalize your tour</a>
+                    <a href="https://traavelbug.com/" target="_blank" rel="noopener noreferrer"
+                        class="service-btn">Personalize your tour</a>
                 </div>
 
                 <!-- Card 3 -->
@@ -177,7 +215,8 @@
                         vacation.
                     </p>
 
-                    <a href="https://traavelbug.com/" target="_blank" rel="noopener noreferrer" class="service-btn">Contact an Advisor</a>
+                    <a href="https://traavelbug.com/" target="_blank" rel="noopener noreferrer"
+                        class="service-btn">Contact an Advisor</a>
                 </div>
 
             </div>
@@ -211,7 +250,8 @@
                         <li class="sub">Point A - Point B - Point A</li>
                     </ul>
 
-                    <a href="https://traavelbug.com/" target="_blank" rel="noopener noreferrer" class="card-btn">Book now!</a>
+                    <a href="https://traavelbug.com/" target="_blank" rel="noopener noreferrer" class="card-btn">Book
+                        now!</a>
                 </div>
 
                 <!-- Open Service -->
@@ -226,7 +266,8 @@
                         <li>12 hours</li>
                     </ul>
 
-                    <a href="https://traavelbug.com/" target="_blank" rel="noopener noreferrer" class="card-btn">Check Availability</a>
+                    <a href="https://traavelbug.com/" target="_blank" rel="noopener noreferrer" class="card-btn">Check
+                        Availability</a>
                 </div>
 
                 <!-- Daily Service -->
@@ -244,7 +285,8 @@
                         <li>Tours</li>
                     </ul>
 
-                    <a href="https://traavelbug.com/" target="_blank" rel="noopener noreferrer" class="card-btn">Get a quote now!</a>
+                    <a href="https://traavelbug.com/" target="_blank" rel="noopener noreferrer" class="card-btn">Get a
+                        quote now!</a>
                 </div>
 
             </div>
@@ -325,7 +367,8 @@
                 </div>
             </div>
             <div class="btn-prrr">
-                <a href="https://traavelbug.com/" target="_blank" rel="noopener noreferrer" class="product-btn">Book Now</a>
+                <a href="https://traavelbug.com/" target="_blank" rel="noopener noreferrer" class="product-btn">Book
+                    Now</a>
             </div>
         </div>
     </section>
@@ -562,21 +605,43 @@
         </div>
     </section>
 
-    <div id="footer"></div>
+    <!-- Footer -->
+    <footer class="xp-footer">
 
-    <!-- Header Load -->
-    <script>
-        fetch("header.html")
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById("header").innerHTML = data;
-            });
-        fetch("footer.html")
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById("footer").innerHTML = data;
-            });
-    </script>
+        <!-- Social Icons -->
+        <div class="xp-social">
+            <a href="https://traavelbug.com/" target="_blank" rel="noopener noreferrer"><i
+                    class="fab fa-facebook-f"></i></a>
+            <a href="https://traavelbug.com/" target="_blank" rel="noopener noreferrer"><i
+                    class="fab fa-instagram"></i></a>
+            <a href="https://traavelbug.com/" target="_blank" rel="noopener noreferrer"><i
+                    class="fab fa-tiktok"></i></a>
+        </div>
+
+        <!-- Footer Links -->
+        <div class="xp-footer-links">
+            <a href="https://traavelbug.com/" target="_blank" rel="noopener noreferrer">About Us</a>
+            <a href="https://traavelbug.com/" target="_blank" rel="noopener noreferrer">Services</a>
+            <a href="https://traavelbug.com/" target="_blank" rel="noopener noreferrer">Products</a>
+        </div>
+
+        <hr class="xp-divider">
+
+        <!-- Bottom Footer -->
+        <div class="xp-footer-bottom">
+
+            <div class="xp-footer-left">
+                <img src="/images/logo.webp" alt="XperTrips Logo" class="xp-logo">
+                <p class="xp-location">Cancun, Quintana Roo</p>
+            </div>
+
+            <div class="xp-footer-right">
+                <p>Copyright © 2025, XperTrips</p>
+            </div>
+
+        </div>
+
+    </footer>
 </body>
 
 </html>
