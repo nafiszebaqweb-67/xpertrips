@@ -884,7 +884,7 @@ h6 {
 }
 
 .partner-img-box {
-    background: #eef1f4;
+    background: none;
     height: 240px;
     display: flex;
     align-items: center;
